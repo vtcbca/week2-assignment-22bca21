@@ -11,7 +11,7 @@ Ans:-
 		id text not null,
 		city text,	
 		m_no number,
-		foreign key(id) references stud16(id)
+		foreign key(id) references stud21(id)
 	);
 
 2. Insert minimum 5 records in each table.
@@ -25,7 +25,7 @@ Ans:-
 3. Display student details who come from the surat city.
 Ans:-
 	select s.id,s.name,sd.city,sd.m_no
-   	from stud21 s join stud_detail16 sd
+   	from stud21 s join stud_detail21 sd
     	on s.id=sd.id
     	where sd.city='surat';
 
