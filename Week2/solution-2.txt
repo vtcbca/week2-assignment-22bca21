@@ -1,4 +1,3 @@
-
 1. Create a table of student and student details.
 Ans:-	
 	create table stud21
