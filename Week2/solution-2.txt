@@ -28,7 +28,7 @@ Ans:-
 	select s.id,s.name,sd.city,sd.m_no
    	from stud21 s join stud_detail16 sd
     	on s.id=sd.id
-    	where city='surat';
+    	where sd.city='surat';
 
 4. Display student details who come the city which is started with B.
 Ans:-
